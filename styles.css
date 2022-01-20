@@ -1,0 +1,225 @@
+/*   COLORS:-
+  --primary:#FFCA03;
+  --dark:#0F0E0E;
+  --pure:#FFF9F9;
+  --ternary:#898989;
+  --light:#F0ECE3;*/
+
+
+@import "\CSS\utilities.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smotthing:antialiased;
+}
+
+header{
+  background-color: #0F0E0E;
+  height: 750px;
+  clip-path:polygon(0 0, 100% 0, 100% 100%, 80% 80%, 0 100%)
+}
+
+.container{
+  max-width: 1152px;
+  padding: 0 15px;
+  margin:0 auto;
+}
+
+header nav .left a{
+  color: #FFF9F9;
+  text-decoration: none;
+  margin-right: 3rem;
+  text-transform: uppercase;
+}
+
+.mainlogo{
+  margin-left: -170px;
+}
+.logo{
+  display: inline-block;
+  height: 50px;
+  width: auto;
+}
+
+.left{
+  padding: 2rem 0;
+  display: inline-block;
+}
+
+.a:hover{
+  color: #FFCA03
+}
+.b:hover{
+  color: #FFCA03
+}
+.c:hover{
+  color: #FFCA03
+}
+.d:hover{
+  color: #FFCA03
+}
+.right{
+  margin-left: 1100px;
+  margin-top: -70px;
+
+
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  background:transparent;
+  border-color: #FFCA03;
+  color: #FFCA03;
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 3px #666666;
+  color: #FFCA03;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding: 5px 17px 5px 17px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFFFFF;
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #FFCA03);
+  background-image: -moz-linear-gradient(top, #FFFFFF, #FFCA03);
+  background-image: -ms-linear-gradient(top, #FFFFFF, #FFCA03);
+  background-image: -o-linear-gradient(top, #FFFFFF, #FFCA03);
+  background-image: linear-gradient(to bottom, #FFFFFF, #FFCA03);
+  color: black
+  }
+
+
+
+.hero .images .shape{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 29%;
+  bottom: 11%;
+
+}
+.hero .images .boy{
+  display: inline-block;
+  width: 15%;
+  height:auto;
+  position: absolute;
+  bottom: 16%
+
+}
+
+.images img{
+  height: 100%;
+  position: absolute;
+  left: 29%;
+  bottom: 20%;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+  bottom: 40px;
+}
+
+.images:hover .boy{
+  left: 400px;
+}
+
+
+h1{
+  display: inline-block;
+  position: absolute;
+  right: 24.5%;
+  bottom: 53%;
+  color: #FFCA03;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  padding: 10px
+}
+
+h6{
+  display: inline-block;
+  position: absolute;
+  right: 39.2%;
+  bottom: 49.5%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+p{
+  display: inline-block;
+  position: absolute;
+  width: 500px;
+  right: 17.1%;
+  bottom: 33.5%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 10%;
+  line-height: 1.7
+}
+
+.CV{
+  background: #FFFFFF;
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #FFCA03);
+  background-image: -moz-linear-gradient(top, #FFFFFF, #FFCA03);
+  background-image: -ms-linear-gradient(top, #FFFFFF, #FFCA03);
+  background-image: -o-linear-gradient(top, #FFFFFF, #FFCA03);
+  background-image: linear-gradient(to bottom, #FFFFFF, #FFCA03);
+  color: black
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 3px #666666;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding: 5px 17px 5px 17px;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  right: 40.3%;
+  bottom: 19.5%;
+
+}
+
+.CV:hover {
+  background:transparent;
+  border-color: #FFCA03;
+  color: #FFCA03;
+}
+
+.about .container h1{
+  position: absolute;
+  left: 40%;
+  bottom: -40%;
+  border-color: black;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.about .container h3{
+  position: absolute;
+  left: 37%;
+  bottom: -50%;
+  font-family: 'Poppins', sans-serif;
+
+}
+.about .container p{
+  position: absolute;
+  left: 33%;
+  bottom: -65%;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+
+
+}
